@@ -1,0 +1,60 @@
+/* Navbar.css */
+
+/* Brand Colors */
+:root {
+  --primary-color: #7A003C; /* P&N Bank maroon */
+  --secondary-color: #F5F5F5; /* Light background */
+  --accent-color: #FFB612; /* Warm gold accent */
+  --text-color: #333;
+  --hover-color: #a0004d;
+}
+
+/* Reset and base styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding: 0.75rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+/* Navigation links */
+.navbar a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: var(--hover-color);
+}
+
+/* Active link styling */
+.navbar .active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 2px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin: 0.5rem 0;
+  }
+}

@@ -1,0 +1,116 @@
+:root {
+  --brand-white: #FFFFFF;
+  --brand-teal: #39A296;
+  --brand-purple: #838ADD;
+  --brand-fuchsia: #C75892;
+  --brand-navy: #003E67;
+  --brand-red: #F60C00;
+  --brand-grey: #A5A5A5;
+
+  --brand-font-main: 'Open Sans', 'Roboto', Arial, sans-serif;
+  --brand-font-bold: 700;
+}
+
+body {
+  font-family: var(--brand-font-main);
+  background: var(--brand-white);
+  color: #000;
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background: var(--brand-white);
+  color: var(--brand-white);
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+}
+.navbar img {
+  height: 60px;
+  margin-right: 40px;
+}
+.navbar a {
+  color: var(--brand-teal);
+  font-weight: bold;
+  margin-right: 2em;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.navbar a.active,
+.navbar a:hover {
+  color: var(--brand-red);
+}
+
+/* MAIN LAYOUT */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  flex: 1;
+  padding: 2em 1em;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* FOOTER */
+footer {
+  background: var(--brand-navy);
+  color: var(--brand-white);
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1em;
+}
+
+/* CARD STYLE */
+.card {
+  background: var(--brand-white);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+/* BUTTONS */
+button {
+  background: var(--brand-grey);
+  color: var(--brand-white);
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 0.5em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: var(--brand-fuchsia);
+}
+
+/* ACCESSIBLE TEXT UTILITY CLASSES */
+.text-black { color: #000 !important; }
+.text-white { color: var(--brand-white) !important; font-weight: var(--brand-font-bold); }
+.text-navy { color: var(--brand-navy) !important; }
+.text-teal { color: var(--brand-teal) !important; }
+.text-purple { color: var(--brand-purple) !important; }
+.text-fuchsia { color: var(--brand-fuchsia) !important; font-weight: var(--brand-font-bold); }
+.text-red { color: var(--brand-red) !important; }
+.text-grey { color: var(--brand-grey) !important; }
+
+.bg-navy { background: var(--brand-navy) !important; }
+.bg-teal { background: var(--brand-teal) !important; }
+.bg-purple { background: var(--brand-purple) !important; }
+.bg-fuchsia { background: var(--brand-fuchsia) !important; }
+.bg-red { background: var(--brand-red) !important; }
+.bg-grey { background: var(--brand-grey) !important; }
+.bg-white { background: var(--brand-white) !important; }
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: var(--brand-font-main), Poppins, Poppins;
+  color: var(--brand-navy);
+  font-weight: var(--brand-font-bold);
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 101,
+    "title": "HR Business Partner",
+    "department": "People & Culture",
+    "location": "Perth",
+    "classification": "Specialist",
+    "status": "Open",
+    "postedDate": "2025-08-01",
+     "job.jobUrl": "https://jobadder.com/job/HRBP123"
+  },
+  {
+    "id": 102,
+    "title": "Recruitment Coordinator",
+    "department": "Talent Acquisition",
+    "location": "Brisbane",
+    "status": "Open",
+    "postedDate": "2025-08-03",
+        "job.jobUrl": "https://jobadder.com/job/RC456"
+  },
+  {
+    "id": 103,
+    "title": "Help Desk Analyst",
+    "department": "IT Infrastructure",
+    "location": "Coffs Harbour",
+    "status": "Open",
+    "postedDate": "2025-08-05",
+        "job.jobUrl": "https://jobadder.com/job/HDA789"
+  }
+]
