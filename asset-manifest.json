@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TalentMarketplace/static/css/main.0243990c.css",
-    "main.js": "/TalentMarketplace/static/js/main.afb6f7e6.js",
+    "main.js": "/TalentMarketplace/static/js/main.c7247ddd.js",
     "static/js/488.9a677390.chunk.js": "/TalentMarketplace/static/js/488.9a677390.chunk.js",
     "static/media/pnbank-logo.png": "/TalentMarketplace/static/media/pnbank-logo.7b9660db873fb2c1e4ae.png",
     "index.html": "/TalentMarketplace/index.html",
     "main.0243990c.css.map": "/TalentMarketplace/static/css/main.0243990c.css.map",
-    "main.afb6f7e6.js.map": "/TalentMarketplace/static/js/main.afb6f7e6.js.map",
+    "main.c7247ddd.js.map": "/TalentMarketplace/static/js/main.c7247ddd.js.map",
     "488.9a677390.chunk.js.map": "/TalentMarketplace/static/js/488.9a677390.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0243990c.css",
-    "static/js/main.afb6f7e6.js"
+    "static/js/main.c7247ddd.js"
   ]
 }
